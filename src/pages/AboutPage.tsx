@@ -22,15 +22,15 @@ const team = [
 function AboutPage() {
   return (
     <div className="space-y-14">
-      <section className="rounded-3xl border border-amber-100 bg-gradient-to-r from-amber-50 via-orange-50 to-rose-50 p-7 sm:p-10">
-        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-700">За нашата компания</p>
-        <h1 className="mt-3 text-3xl font-black text-slate-900 sm:text-4xl">Изграждаме стойност чрез доверие, идеи и резултати</h1>
-        <p className="mt-4 max-w-3xl text-slate-700">
+      <section className="rounded-3xl border border-sky-100 bg-gradient-to-br from-sky-600 via-cyan-600 to-teal-500 p-7 text-white shadow-xl sm:p-10">
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-100">За нашата компания</p>
+        <h1 className="mt-3 text-3xl font-black sm:text-4xl">Изграждаме стойност чрез доверие, идеи и резултати</h1>
+        <p className="mt-4 max-w-3xl text-cyan-50">
           Вече над 10 години помагаме на български и международни компании да повишават ефективността си и да растат устойчиво.
         </p>
       </section>
 
-      <section className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 sm:p-10 lg:grid-cols-5">
+      <section className="grid gap-6 rounded-3xl border border-sky-100 bg-slate-50 p-7 shadow-sm sm:p-10 lg:grid-cols-5">
         <div className="lg:col-span-2">
           <h2 className="card-title text-slate-900">Нашата мисия</h2>
         </div>
