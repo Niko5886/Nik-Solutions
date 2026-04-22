@@ -32,7 +32,7 @@ function AboutPage() {
 
       <section className="grid gap-6 rounded-3xl border border-slate-200 bg-white p-7 sm:p-10 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <h2 className="text-2xl font-black text-slate-900">Нашата мисия</h2>
+          <h2 className="card-title text-slate-900">Нашата мисия</h2>
         </div>
         <div className="space-y-4 text-slate-700 lg:col-span-3">
           <p>
@@ -53,7 +53,7 @@ function AboutPage() {
       </div>
 
       <section>
-        <h2 className="text-2xl font-black text-slate-900 sm:text-3xl">Екип</h2>
+        <h2 className="card-title text-slate-900">Екип</h2>
         <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {team.map((member) => (
             <article key={member.name} className="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -63,7 +63,7 @@ function AboutPage() {
                   .map((part) => part[0])
                   .join('')}
               </div>
-              <h3 className="text-xl font-bold text-slate-900">{member.name}</h3>
+              <h3 className="card-title text-slate-900">{member.name}</h3>
               <p className="text-sm font-semibold uppercase tracking-wide text-sky-700">{member.role}</p>
               <p className="mt-3 text-slate-600">{member.text}</p>
             </article>

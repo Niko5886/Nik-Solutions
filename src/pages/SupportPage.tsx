@@ -76,7 +76,7 @@ function SupportPage() {
       <section>
         <div className="mb-6 flex items-end justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-black text-slate-900 sm:text-3xl">Нашите услуги за поддръжка</h2>
+            <h2 className="card-title text-slate-900">Нашите услуги за поддръжка</h2>
             <p className="mt-2 max-w-3xl text-slate-600">
               Секцията следва визията от снимката: светъл фон, тънки акцентни линии, ясни карти и четим типографски ритъм.
             </p>
@@ -95,7 +95,7 @@ function SupportPage() {
                 <div className="inline-flex rounded-xl border border-sky-200 bg-sky-50 p-3 text-sky-600">
                   <Icon className="h-8 w-8" aria-hidden="true" strokeWidth={1.8} />
                 </div>
-                <h3 className="mt-5 text-2xl font-black leading-tight text-slate-800">{card.title}</h3>
+                <h3 className="card-title mt-5 text-slate-800">{card.title}</h3>
                 <p className="mt-3 max-w-sm text-base leading-relaxed text-slate-600">{card.description}</p>
               </article>
             )
@@ -106,7 +106,7 @@ function SupportPage() {
       <section className="grid gap-6 rounded-3xl border border-slate-200 bg-slate-50 p-6 sm:p-8 lg:grid-cols-3">
         <div className="lg:col-span-2">
           <p className="text-sm font-semibold uppercase tracking-[0.2em] text-sky-600">Как работим</p>
-          <h2 className="mt-2 text-2xl font-black text-slate-900">Започваме с преглед, продължаваме с оптимизация и завършваме с постоянен контрол</h2>
+          <h2 className="card-title mt-2 text-slate-900">Започваме с преглед, продължаваме с оптимизация и завършваме с постоянен контрол</h2>
           <p className="mt-4 max-w-3xl text-slate-600">
             Ако вече имате сайт или приложение, можем да поемем поддръжката му, да обновим визията или да подобрим
             техническата стабилност без да променяме основната идентичност на бранда.

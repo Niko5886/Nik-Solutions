@@ -14,7 +14,7 @@ function ContactsPage() {
       <section className="grid gap-6 lg:grid-cols-2">
         <div className="space-y-6 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
           <div>
-            <h2 className="text-xl font-black text-slate-900">Контактна информация</h2>
+            <h2 className="card-title text-slate-900">Контактна информация</h2>
             <ul className="mt-4 space-y-3 text-slate-700">
               <li>
                 <span className="font-semibold text-slate-900">Адрес:</span> бул. Витоша 100, София 1463
@@ -30,7 +30,7 @@ function ContactsPage() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-slate-900">Карта</h3>
+            <h3 className="card-title text-slate-900">Карта</h3>
             <div className="mt-3 overflow-hidden rounded-2xl border border-slate-200">
               <iframe
                 title="Карта на офиса"
@@ -43,7 +43,7 @@ function ContactsPage() {
         </div>
 
         <form id="contact-form" className="space-y-4 rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8 scroll-mt-28">
-          <h2 className="text-xl font-black text-slate-900">Изпратете запитване</h2>
+          <h2 className="card-title text-slate-900">Изпратете запитване</h2>
           <div>
             <label htmlFor="name" className="mb-2 block text-sm font-semibold text-slate-700">Име</label>
             <input

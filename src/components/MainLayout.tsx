@@ -2,9 +2,9 @@ import { NavLink, Outlet } from 'react-router-dom'
 
 const navItems = [
   { to: '/', label: 'Начало' },
-  { to: '/#mobile-app', label: 'Мобилно приложение' },
-  { to: '/#web-site', label: 'Уеб сайт' },
-  { to: '/#online-shop', label: 'Онлайн магазин' },
+  { to: '/mobile-app', label: 'Мобилно приложение' },
+  { to: '/web-site', label: 'Уеб сайт' },
+  { to: '/online-shop', label: 'Онлайн магазин' },
   { to: '/support', label: 'Поддръжка' },
   { to: '/about', label: 'За нас' },
   { to: '/contacts', label: 'Контакти' },
@@ -59,9 +59,9 @@ function MainLayout() {
           <div className="md:text-right">
             <div className="flex flex-wrap items-center gap-4 text-sm font-semibold md:justify-end">
               <NavLink to="/" className="text-slate-600 transition hover:text-sky-700">Начало</NavLink>
-              <NavLink to="/#mobile-app" className="text-slate-600 transition hover:text-sky-700">Мобилно приложение</NavLink>
-              <NavLink to="/#web-site" className="text-slate-600 transition hover:text-sky-700">Уеб сайт</NavLink>
-              <NavLink to="/#online-shop" className="text-slate-600 transition hover:text-sky-700">Онлайн магазин</NavLink>
+              <NavLink to="/mobile-app" className="text-slate-600 transition hover:text-sky-700">Мобилно приложение</NavLink>
+              <NavLink to="/web-site" className="text-slate-600 transition hover:text-sky-700">Уеб сайт</NavLink>
+              <NavLink to="/online-shop" className="text-slate-600 transition hover:text-sky-700">Онлайн магазин</NavLink>
               <NavLink to="/support" className="text-slate-600 transition hover:text-sky-700">Поддръжка</NavLink>
               <NavLink to="/about" className="text-slate-600 transition hover:text-sky-700">За нас</NavLink>
               <NavLink to="/contacts" className="text-slate-600 transition hover:text-sky-700">Контакти</NavLink>

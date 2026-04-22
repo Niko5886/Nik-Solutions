@@ -17,7 +17,7 @@ function ServicesGrid({ title, subtitle, items }: ServicesGridProps) {
     <section className="space-y-6">
       {title ? (
         <div>
-          <h2 className="text-2xl font-black text-slate-900 sm:text-3xl">{title}</h2>
+          <h2 className="card-title text-slate-900">{title}</h2>
           {subtitle ? <p className="mt-2 max-w-3xl text-slate-600">{subtitle}</p> : null}
         </div>
       ) : null}
@@ -31,7 +31,7 @@ function ServicesGrid({ title, subtitle, items }: ServicesGridProps) {
               <div className="inline-flex rounded-xl bg-sky-50 p-3 text-sky-700">
                 <Icon className="h-7 w-7" aria-hidden="true" />
               </div>
-              <h3 className="mt-4 text-xl font-bold text-slate-900">{item.title}</h3>
+              <h3 className="card-title mt-4 text-slate-900">{item.title}</h3>
               <p className="mt-3 text-slate-600">{item.description}</p>
             </article>
           )
